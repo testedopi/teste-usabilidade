@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <title>adote</title>
+    <link rel="stylesheet" href="style.css">
+    <style></style>
+</head>
+<body>
+
+    <header id="header"> <!---->
+        <div class="container"> <!-- Aq é a parte onde se inicia o corpo principal do nosso menu -->
+
+            <div class="flex"> <!-- Aq é a parte onde se encontra todos os itens do menu -->
+
+                <div class="logo">Adote um amor</div> <!-- Aq é a parte da nossa logo -->
+
+                <nav> <!-- Aq é a parte da navegação do menu onde fica TDS os itens do menu -->
+                    <ul>
+                        <li><a href="#" onclick="scrollToSection(event, 'tela-sobrenos')">Sobre Nós</a></li>
+                        <li><a href="#" onclick="scrollToSection(event, 'tela-adotados')">Adotados</a></li>
+                        <li><a href="#" onclick="scrollToSection(event, 'apadrinhamento')">Apadrinhamento</a></li>
+                        <li><a href="#" onclick="scrollToSection(event, 'tela-adoçao')">Para Adoção</a></li>
+                        <li><a href="#" onclick="scrollToSection(event, 'tela-ongs')">ONGs</a></li>
+                        
+                        
+                    </ul>
+                </nav><!--Fim da TAG nav-->
+
+                <div class="btn-contato"><!--Aq é o nosso Botão de login do menu-->
+                    <a href="#"><button>LOGIN</button></a>
+                </div><!--Fim da TAG btn-contato-->
+
+            </div><!--Fim da TAG flex-->
+
+        </div><!--Fim da TAG container-->
+    </header><!--Fim da TAG header-->
+
+    <section id="tela" class="flex-tela"><!--Aq é o início da tela de login a nossa primeira tela-->
+        <div class="text-container-login"><!--Aq é onde está toda a estrutura da tela-->
+
+            <div class="btn-pesquisar"><!--Aq é a parte da barra de pesquisar-->
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="icon">
+                  <g>
+                    <path
+                      d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"
+                    ></path>
+                  </g>
+                </svg>
+                <input class="input" type="search" placeholder="pesquisar" />
+            </div><!--Fim da TAG btn-pesquisar-->
+              
+
+            <h1>ACESSE<BR>
+                AGORA
+            </h1>
+
+                <p>CRIE UMA CONTA E TENHA ACESSO </p>
+                   <p>AOS NOSSOS PETS</p> 
+            
+
+            <button class="btn-entrar">entrar</button><br>
+
+            <a href="">cadastrar</a>
+            
+
+        </div>
+        
+
+        <div class="img-telaincial"><!--Fim da TAG nav-->
+            <img src="img/img-login.webp" height="640.5px" width="700px" >
+        </div><!--Fim da TAG img-telaincial-->
+
+    </section><!--Fim da seção da primeira tela-->
+   
+
+    <section id="tela-sobrenos" class="flex-container"><!--Início da seção da tela 3-->
+
+        <div class="contenttela2"><!--Aq é a parte onde se encontra toda a estrutura da tela-->
+            <img class="imgsobre1" src="img/tela2sobrenos.webp" alt="Imagem de um gato" height="500px" width="800px"><!--Aq é a imagem do lado esquerdo da tela-->
+            
+            <div class="text-containertela2"><!--Aq é a parte de fica a estrutura dos textos que se encontram na tela-->
+                <div class="sobre"><h2>SOBRE NÓS:</h2></div>
+                <p>Somos um site focado em adoção de animais que tem como objetivo proporcionar uma vida incrível para os nossos pets.</p>
+                <p class="subtitle">Unidos desde Agosto de 2023.</p>
+            </div><!--Fim da TAG text-containertela2-->
+            
+            <img class="imgsobre2" src="img/telasobre2.jfif" alt="Imagem de um cachorro" height="300px"><!--Aq é a imagem do lado direito da tela-->
+        </div><!--Fim da TAG onde se encontra a estrutura-->
+        
+    </section><!--Fim da seção da tela 3-->
+
+    <section id="tela-adoçao" class="carousel-section">
+        <div class="section-content">
+          <h1 class="section-title">Adoção</h1>
+          <div class="search-filters">
+            <div class="search-bar">
+              <input type="text" placeholder="Pesquisar..." />
+              <button><a href="adocao.html">pesquisar</a></button>
+            </div>
+            <div class="filters">
+              <h3>Filtros:</h3>
+              <label><input type="checkbox"> cidade</label>
+              <label><input type="checkbox"> ong</label>
+              <label><input type="checkbox"> idade</label>
+              <label><input type="checkbox"> animal</label>
+            </div>
+          </div>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="chat-ado.html"><img src="img/pet3.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href="chat-ado.html"><img src="img/pet5.jpg" alt="" ></a></div>
+            <div class="swiper-slide"><a href="chat-ado.html"><img src="img/carros2.avif" alt=""></a></div>
+            <div class="swiper-slide"><a href="chat-ado.html"><img src="img/carros4.jpeg" alt=""></a></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+    <section id="tela-adotados" class="flex-container-tela2">
+        <div class="text-container-tela2">
+            <h2>ADOTADOS:</h2>
+        </div>
+
+        <div class="cards-container">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/flip1.jfif" alt="Front Image 1">
+                    </div>
+                    <div class="card-back">
+                        <p>nome: Tico<br>idade: 1 ano<br>ong: Minha CS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/flip2.jfif" alt="Front Image 2">
+                    </div>
+                    <div class="card-back">
+                        <p>nome: Mia<br>idade: 1 ano<br>ong: Minha CS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/flip3.jfif" alt="Front Image 3">
+                    </div>
+                    <div class="card-back">
+                        <p>nome: La<br>idade: 1 ano<br>ong: Minha CS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/pet4 (1).jfif" alt="Front Image 4">
+                    </div>
+                    <div class="card-back">
+                        <p>nome: Mia<br>idade: 1 ano<br>ong: Minha CS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/pet4 (2).jfif" alt="Front Image 5">
+                    </div>
+                    <div class="card-back">
+                        <p>nome: Mia<br>idade: 1 ano<br>ong: Minha CS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/pet4 (3).jfif" alt="Front Image 6">
+                    </div>
+                    <div class="card-back">
+                        <p>nome: Mia<br>idade: 1 ano<br>ong: Minha CS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/pet1.jpg" alt="Front Image 7">
+                    </div>
+                    <div class="card-back">
+                        <p>nome: Mia<br>idade: 1 ano<br>ong: Minha CS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/pet2.jpg" alt="Front Image 8">
+                    </div>
+                    <div class="card-back">
+                        <p>nome: Tico<br>idade: 1 ano<br>ong: Minha CS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/pet3.jpg" alt="Front Image 9">
+                    </div>
+                    <div class="card-back">
+                        <p>nome: Tico<br>idade: 1 ano<br>ong: Minha CS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/carros1.jpeg" alt="Front Image 10">
+                    </div>
+                    <div class="card-back">
+                        <p>nome: Tico<br>idade: 1 ano<br>ong: Minha CS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/carros2.avif" alt="Front Image 11">
+                    </div>
+                    <div class="card-back">
+                        <p>nome: Tico<br>idade: 1 ano<br>ong: Minha CS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/pet5.jpg" alt="Front Image 12">
+                    </div>
+                    <div class="card-back">
+                        <p>nome: Tico<br>idade: 1 ano<br>ong: Minha CS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="adocao">
+        
+    </section>
+
+    
+    <section id="apadrinhamento" class="flex-container-tela4">
+        
+        <div class="text-container-tela4-titulo">
+        
+
+            <div class="flex-tela4">
+
+                <h2>VAMOS APADRINHAR!</h2><br>
+
+                <div class="text-container-tela4-texto">
+
+                <h3>O apadrinhamento pet é uma bela opção para quem<br> 
+                ainda não pode ter um pet em casa ou não consegue<br> 
+                aumentar a família no momento, mas morre de vontade <br> 
+                de ajudar ONG's que atuam na área de proteção animal.<br> 
+                Com um pequeno valor mensal, você pode ser a dinda<br> 
+                ou o dindo de um peludo que ainda não encontrou uma família.</h3>
+
+            </div>
+            <button id="btn-apadrinhar"><a href="apadrinhar.html">Apadrinhar</a></button>
+
+        </div>
+        <div class="img-container-tela4">
+
+            <img src="img/tela3apadrinhados.webp" alt="">
+        </div>
+
+        
+
+    </section>
+
+    <section id="tela-ongs" class="ongs">
+        <h1>ONGS</h1>
+        <div class="elementos-dentro">
+            <div class="ongs-dentro">
+                <img src="img/ongs1.png" alt="">
+                <p>
+                     ONG de animais <br> 
+                     abandonados e resgatados. <br> 
+                     Procuramos um lar para eles,<br>
+                     são doados castrados,<br>
+                      vacinados e vermifugados.
+
+                </p>
+            </div>
+            <div class="ongs-dentro">
+                <img src="img/ongs2.png" alt="">
+                <p>
+                     ONG SOS CIDADANIA ANIMAL é uma <br>
+                     organização não-governamental, sem <br>
+                     fins lucrativos, fundada em <br>
+                     janeiro de 2009 para oferecer <br>
+                     auxílio aos animais.
+                </p>
+            </div>
+            <div class="ongs-dentro">
+                <img src="img/ongs3.webp" alt="">
+                <p>
+                     A ONG Animalar é formada por <br>
+                     voluntários prestativos que <br>
+                     amam os animais e buscam<br>
+                     alternativas para reduzir os <br>
+                     maus tratos e abandono.
+
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="tela-fim">
+        <h1>adote um amor</h1>
+
+        <h3>UNIDOS DESDE AGOSTO DE 2023. </h3>
+
+        <div class="elementos-texto">
+
+            <div class="elementos-texto-dentro" >
+                <h4>MATENHA CONTATO!</h4>
+
+                <a href=""><img src="img/instagram.png" alt="">Instagram</a>
+                <a href=""><img src="img/facebook.png" alt="">Facebook</a>
+                
+            </div>
+            <div class="elementos-texto-dentro">
+                <h4>FALE CONOSCO!</h4>
+                <a href=""><img src="img/fone-de-ouvido (2).png" alt="" >SAC</a><br>
+                
+                <p >Local de atendimento <br>
+                    ao cliente onde<br>
+                    esclarecmos dúvidas <br>
+                    e recebemos denúncias.
+                    </p>
+            </div>
+            <div class="elementos-texto-dentro">
+                <a href=""><img src="img/aperto-de-mao.png" alt=""> AJUDA</a><br>
+                <P>Alto atendidmento.</p>
+            </div>
+            <div class="elementos-texto-dentro">
+                <a href=""> <img src="img/balao-de-pensamento.png" alt="">CONTATO</a><br>
+               
+                <P>Contato: 3255-5564</P>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+   
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>
